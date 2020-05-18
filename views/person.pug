@@ -1,0 +1,18 @@
+html
+head
+    title Person
+body
+    form(action= "/person", method = "post" )
+        div
+            label(for="name") Name:
+            input(name="name")
+        br
+        div
+            label(for = "age") Age:
+            input(type = "text", name = "age")
+        br
+        div
+            label(for="nationality") Nationality:
+            input(type="text",name="nationality")
+        br
+        button(type = "submit") Create new person
